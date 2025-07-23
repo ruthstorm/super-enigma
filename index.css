@@ -106,6 +106,17 @@ section {
   margin: 0 var(--spacing-1);
 }
 
+.skill-icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  display: inline-block;
+  /* Optional: make the icon grayscale to match FA style */
+  filter: grayscale(0) brightness(1);
+  /* Optional: add margin for spacing */
+  margin: 0 0.2em;
+}
+
 a {
   color: var(--font-color);
   text-decoration: none;
